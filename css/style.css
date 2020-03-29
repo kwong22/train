@@ -1,0 +1,102 @@
+/* Variables */
+:root {
+  --main-margin: 3px;
+  --main-padding: 6px;
+
+  /*
+   * CTA Branding Guidelines
+   * https://www.transitchicago.com/developers/branding/
+   */
+  --cta-red: #c60c30;
+  --cta-blue: #00a1de;
+  --cta-brown: #62361b;
+  --cta-green: #009b3a;
+  --cta-orange: #f9461c;
+  --cta-purple: #522398;
+  --cta-pink: #e27ea6;
+  --cta-yellow: #f9e300;
+  --cta-gray: #565a5c;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'FreeSans';
+  src: url('../fonts/FreeSans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FreeSansBold';
+  src: url('../fonts/FreeSansBold.woff') format('woff');
+}
+
+/* Style */
+body {
+  background-color: #000;
+  font-family: 'FreeSans', helvetica;
+}
+
+p {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bold {
+  font-family: 'FreeSansBold';
+}
+
+.box-large {
+  margin-bottom: var(--main-margin);
+  padding: var(--main-padding) 16px;
+  width: 400px;
+}
+
+.box-small {
+  margin: 0 var(--main-margin) var(--main-margin) 0;
+  padding-top: var(--main-padding);
+  text-align: center;
+  width: 20px;
+}
+
+.box-time {
+  margin-bottom: var(--main-margin);
+  padding-top: 12px;
+  width: 100px;
+}
+
+.container {
+  margin: 4px auto 0;
+  width: 524px;
+}
+
+.gray {
+  background-color: var(--cta-gray);
+}
+
+.header {
+  width: 500px;
+}
+
+.red {
+  background-color: var(--cta-red);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.text-main {
+  font-size: 36px;
+}
+
+.text-num {
+  font-size: 16px;
+}
+
+.text-sub {
+  font-size: 14px;
+}
