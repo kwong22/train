@@ -31,7 +31,7 @@
 
 /* Style */
 body {
-  background-color: #000;
+  background-color: #111;
   font-family: 'FreeSans', helvetica;
 }
 
@@ -47,7 +47,15 @@ ul {
   font-family: 'FreeSansBold';
 }
 
+.box-inner-time {
+  align-self: flex-end;
+  text-align: right;
+}
+
 .box-large {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
   margin-bottom: var(--main-margin);
   padding: var(--main-padding) 16px;
   width: 400px;
@@ -60,23 +68,13 @@ ul {
   width: 20px;
 }
 
-.box-time {
-  margin-bottom: var(--main-margin);
-  padding-top: 12px;
-  width: 100px;
-}
-
 .container {
-  margin: 4px auto 0;
-  width: 524px;
+  margin: 16px auto 0;
+  width: 600px;
 }
 
 .gray {
   background-color: var(--cta-gray);
-}
-
-.header {
-  width: 500px;
 }
 
 .red {
