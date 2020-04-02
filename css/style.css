@@ -57,8 +57,7 @@ ul {
   flex: 1;
   justify-content: space-between;
   margin-bottom: var(--main-margin);
-  padding: var(--main-padding) 16px;
-  width: 400px;
+  padding: var(--main-padding) 12px;
 }
 
 .box-small {
@@ -68,9 +67,13 @@ ul {
   width: 20px;
 }
 
-.container {
-  margin: 16px auto 0;
-  width: 600px;
+.container-outer {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container-inner {
+  margin: var(--main-padding) var(--main-padding) 0;
 }
 
 .gray {
@@ -88,7 +91,7 @@ ul {
 }
 
 .text-main {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .text-num {
